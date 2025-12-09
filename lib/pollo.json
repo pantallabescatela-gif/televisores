@@ -77,6 +77,13 @@
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion": "CHUPETAS DE POLLO X KG",
+    "precio": "445.556",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
   }
   
  ]
