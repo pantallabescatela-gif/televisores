@@ -274,9 +274,10 @@ font-size: 25px;
 
 .tasa{
   background-color: white;
-  border: #000 solid;
+  width: 16%;
   border-radius: 20px;
   margin: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -291,10 +292,36 @@ font-size: 25px;
 
 .textoTasa{
   display: flex;
+  color: #2C3E50;
   flex-direction: column;
   align-items: center;
-  font-size: 20px;
-  margin-right: 50px;
+  font-size: 15px;
+  margin-right: 10px;
+  font-weight: 700;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
+}
+.moneda{
+  font-size: 15px;
+  color: #2C3E50;
+  font-weight: 700;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 15px;
+  background-color:rgb(235, 231, 231) ;
+}
+
+.segundaSection{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #2C3E50;
+  font-size: 25px;
+}
+.terceraSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #2C3E50;
+  font-size: 15px;
+  font-weight: 700;
+  border-top: #aaa solid 1px;
 }

@@ -29,7 +29,10 @@
              <div class="moneda">Bs/USD</div>
           </div>
           <div class="segundaSection">000.00</div>
-          <div class="terceraSection"></div>
+          <div class="terceraSection">
+            <div class="texto2">actualizado</div>
+            <div id="hours">09/12/2025 10:30:18</div>
+          </div>
         </div>
       </div>
     
@@ -62,16 +65,40 @@ function loadAnimation() {
   timeline.play();
 }
 
+function updatetime() {
+  const now = new Date();
+  const today = new Date();      
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
+
+        const day = String(today.getDate()).padStart(2, '0');
+        const month = String(today.getMonth() + 1).padStart(2, '0'); // Month is 0-indexed, so add 1
+        const year = today.getFullYear();
+       
+        hours = hours < 10 ? '0' + hours : hours;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
+
+        // Format the time as HH:MM:SS
+        const timeString = day+ '/' + month + '/' + year+" "+hours + ':' + minutes + ':' + seconds ;
+
+        // Update the content of the 'liveClock' div
+        document.getElementById('hours').innerHTML = timeString;
+}
+
 function transformacionPrecio(tasa, precio) {
 
   return (Number(tasa)*Number(precio)).toFixed(2)
 }
 
  function cargarData(){
+  updatetime();
   fetch('./lib/tasa.json').then(function(response) {
     if (response.ok) {
       response.json().then(function (response) {
         tasadelDia=response.data.tasa;
+        document.querySelector(".segundaSection").innerHTML=tasadelDia;
       })
 
   fetch('./lib/carniceria.json').then(function(response) {
@@ -105,7 +132,8 @@ function transformacionPrecio(tasa, precio) {
 
 
 }
-
+ 
+setInterval(updatetime,1000);
 
 setInterval(function(){
   let text="";
@@ -114,6 +142,7 @@ setInterval(function(){
     if (response.ok) {
       response.json().then(function (response) {
         tasadelDia=response.data.tasa;
+        document.querySelector(".segundaSection").innerHTML=tasadelDia;
       })
     }
   })
@@ -122,7 +151,7 @@ setInterval(function(){
     if(response.ok) {
       response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
-        let data=response.data.carniceria.slice(contador,contador+20);
+        let data=response.data.carniceria.slice(0,contador+20);
          
         for (const productos of data) {
           let text2=`<div class='producto'>
