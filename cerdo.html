@@ -4,30 +4,54 @@
     <title>Other page</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="cerdo.css" />
+    
+    <link rel="stylesheet" href="styles.css" />
+
     <script type="module" src="script.js"></script>
   </head>
   <body onload="cargarData()">
-    
-  
-    <main> 
-    
-      <div class="container">
-       
-  
-      </div>
-  
-  
      
+    <main id="cerdo"> 
+      <div class="header" >
+        <h1 class="titulos" style="color:white">GALERIA HYPERMARKET</h1>
+        <div class="titulos"  style="color:white">carniceria</div>
+      </div>
+     <div class="listas">
+      <div class="logoTasa">
+       
+        <div class="tasa">
+        
+          <div class="primeraSection">
+            <div class="textoTasa">
+              <p>TASA DE CAMBIO</p>
+              <p>OFICIAL BCV</p>
+                </div>
+             <div class="moneda">Bs/USD</div>
+          </div>
+          <div class="segundaSection">000.00</div>
+          <div class="terceraSection">
+            <div class="texto2">actualizado</div>
+            <div id="hours">09/12/2025 10:30:18</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="listaProductos">
+        
+
+      </div>
+
+
+    </div>
       
      
       
     </main>
-</body>
+  </body>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script>
   var contador=4;
-
+  var tasadelDia=0;
   const timeline = gsap.timeline({
     duration: 1,
     paused: false
@@ -41,116 +65,119 @@ function loadAnimation() {
   timeline.play();
 }
 
-function reducirTamano(){
- for (const a of document.querySelectorAll(".linea")) {
-   
-   var text=a.textContent;
-   var length = 18;
-   var trimmedString = text.length > length ? 
-                   text.substring(0, 21) + "..." : 
-                   text;
-    a.textContent = trimmedString;
+function updatetime() {
+  const now = new Date();
+  const today = new Date();      
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
 
- }
-}
-function oferta(oferta) {
-  if (oferta==="si") {
-    return `<div class="containerOferta">
-                <img class="oferta" src="./etiquetaOferta.png" alt="">
-            </div>`;
-          }
-          return "";
-}
-
-
-function cargarData(){
-
- fetch('./lib/cerdo.json').then(function(response) {
-   let text="";
-   if(response.ok) {
-     response.json().then(function(response) {
+        const day = String(today.getDate()).padStart(2, '0');
+        const month = String(today.getMonth() + 1).padStart(2, '0'); // Month is 0-indexed, so add 1
+        const year = today.getFullYear();
        
-       let data=response.data.cerdo.slice(0,6);
-       for (const productos of data) {
-       let text3=` <div class="product">
-            ${oferta(productos.oferta)}
-           <div class="descriptions">
-              <p class="name">${productos.descripcion}</p>
-               <section class="subdescription">
-                <div class="cuantity_background" style="margin-bottom: 10px;">
-                    <p class="CUANTITY">${productos.peso}</p>
-                </div>
-                <p class="price">${productos.precio}</p>
-               </section>
-             
-            </div>
-            <div class="image">
-                <img src=${productos.imagen} alt="">
-            </div>
-        </div>`;
+        hours = hours < 10 ? '0' + hours : hours;
+        minutes = minutes < 10 ? '0' + minutes : minutes;
+        seconds = seconds < 10 ? '0' + seconds : seconds;
 
-        // let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
-         text+=text3;
-       }
-       document.querySelector(".container").innerHTML=text;
-       
-     });
-   } else {
-     console.log('Respuesta de red OK pero respuesta HTTP no OK');
-   }
- })
- .catch(function(error) {
-   console.log('Hubo un problema con la petición Fetch:' + error.message);
- });
+        // Format the time as HH:MM:SS
+        const timeString = day+ '/' + month + '/' + year+" "+hours + ':' + minutes + ':' + seconds ;
+
+        // Update the content of the 'liveClock' div
+        document.getElementById('hours').innerHTML = timeString;
 }
+
+function transformacionPrecio(tasa, precio) {
+
+  return (Number(tasa)*Number(precio)).toFixed(2)
+}
+
+ function cargarData(){
+  updatetime();
+  fetch('./lib/tasa.json').then(function(response) {
+    if (response.ok) {
+      response.json().then(function (response) {
+        tasadelDia=response.data.tasa;
+        document.querySelector(".segundaSection").innerHTML=tasadelDia;
+      })
+
+  fetch('./lib/cerdo.json').then(function(response) {
+  let text="";
+  
+  if(response.ok) {
+    response.json().then(function(response) {
+      
+      let data=response.data.cerdo.slice(0,20);
+       
+      for (const productos of data) {
+        
+        let text2=`<div class='producto'>
+          <div class='nombreProducto'>${productos.descripcion} <div class='precioProducto'>Bs.S ${transformacionPrecio(tasadelDia,productos.precio)}</div> </div>
+          </div>
+          `
+        text+=text2;
+      }
+      document.querySelector(".listaProductos").innerHTML=text;
+      loadAnimation()
+    });
+  } else {
+    console.log('Respuesta de red OK pero respuesta HTTP no OK');
+  }
+})
+.catch(function(error) {
+  console.log('Hubo un problema con la petición Fetch:' + error.message);
+});
+    }
+  })
+
+
+}
+ 
+setInterval(updatetime,1000);
 
 setInterval(function(){
- let text="";
- 
- fetch('./lib/cerdo.json').then(function(response) {
-   if(response.ok) {
-     response.json().then(function(response) {
-      document.querySelector(".container").innerHTML="";
-       let data=response.data.cerdo.slice(contador,contador+6);
-        
-       for (const productos of data) {
-        let text3=` <div class="product">
-            ${oferta(productos.oferta)}
-           <div class="descriptions">
-              <p class="name">${productos.descripcion}</p>
-               <section class="subdescription">
-                <div class="cuantity_background" style="margin-bottom: 10px;">
-                    <p class="CUANTITY">${productos.peso}</p>
-                </div>
-                <p class="price">${productos.precio}</p>
-               </section>
-             
-            </div>
-            <div class="image">
-                <img src=${productos.imagen} alt="">
-            </div>
-        </div>`;
+  let text="";
 
-        // let text2="<div class='producto'><div class='nombreProducto'>"+productos.descripcion+"</div><div class='precioProducto'>"+productos.precio+"</div></div>"
-         text+=text3;
-       }
-       document.querySelector(".container").innerHTML=text;
-       loadAnimation()
-       if(contador>=response.data.cerdo.length-6){
-         contador=0;
-         }else{
-         contador=contador+4;
-         }
-     });
-   } else {
-     console.log('Respuesta de red OK pero respuesta HTTP no OK');
-   }
- })
- .catch(function(error) {
-   console.log('Hubo un problema con la petición Fetch:' + error.message);
- });
+  fetch('./lib/tasa.json').then(function(response) {
+    if (response.ok) {
+      response.json().then(function (response) {
+        tasadelDia=response.data.tasa;
+        document.querySelector(".segundaSection").innerHTML=tasadelDia;
+      })
+    }
+  })
+ 
+  fetch('./lib/cerdo.json').then(function(response) {
+    if(response.ok) {
+      response.json().then(function(response) {
+        document.querySelector(".listaProductos").innerHTML="";
+        let data=response.data.cerdo.slice(0,contador+20);
+         
+        for (const productos of data) {
+          let text2=`<div class='producto'>
+          <div class='nombreProducto'>${productos.descripcion} <div class='precioProducto'>Bs.S ${transformacionPrecio(tasadelDia,productos.precio)}</div> </div>
+          </div>
+          `
+          text+=text2;
+        }
+        document.querySelector(".listaProductos").innerHTML=text;
+        loadAnimation()
+        if(contador>=response.data.cerdo.length-5){
+          contador=0;
+          }else{
+          contador=contador+4;
+          }
+      });
+    } else {
+      console.log('Respuesta de red OK pero respuesta HTTP no OK');
+    }
+  })
+  .catch(function(error) {
+    console.log('Hubo un problema con la petición Fetch:' + error.message);
+  });
 }
- , 120000);
+  , 60000);
 
    </script>
 </html>
+
