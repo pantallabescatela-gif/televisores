@@ -79,7 +79,7 @@ function transformacionPrecio(tasa, precio) {
 }
 
  function cargarData(){
-  updatetime();
+  
   fetch('./lib/tasa.json').then(function(response) {
     if (response.ok) {
       response.json().then(function (response) {
