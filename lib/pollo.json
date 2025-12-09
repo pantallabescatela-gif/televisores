@@ -79,15 +79,64 @@
     "imagen":"./pollo/pollopicado.webp"
   },
   {
-    "descripcion": "CHUPETAS DE POLLO X KG",
-    "precio": "445.556",
+    "descripcion": "MORTADELA ALIBAL 500 G",
+    "precio": "1.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "CHUPETAS DE POLLO X KG",
-    "precio": "445.556",
+    "descripcion": "MORTADELA ALIBAL 700 G",
+    "precio": "2.20",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+   {
+    "descripcion": "MORTADELA ALIBAL 1 KG",
+    "precio": "2.95",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion": "MORTADELA PUNTA DEL MONTE 1 KG",
+    "precio": "3.95",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+   {
+    "descripcion": "MORTADELA PUNTA DEL MONTE 500 G",
+    "precio": "2.25",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion": "MORTADELA CORRAL 1KG",
+    "precio": "3.60",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+   {
+    "descripcion": "MORTADELA PLUMROSE 500 G",
+    "precio": "2.25",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+   {
+    "descripcion": "MORTADELA PLUMROSE 1 KG",
+    "precio": "3.95",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion": "MORTADELA LIDER 1 KG",
+    "precio": "2.95",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"

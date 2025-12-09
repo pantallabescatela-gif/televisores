@@ -175,7 +175,7 @@ h1 {
   width: 100%;
   border-radius: 50px;
   color: rgb(255, 252, 75);
-  font-weight: 700;
+  font-weight: 900;
   opacity: 0;
 }
 .nombreProducto{
@@ -269,7 +269,7 @@ font-size: 25px;
   display: flex;
   flex-direction: row;
   justify-content:right ;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   width: 100%;
 }
 
@@ -323,6 +323,6 @@ font-size: 25px;
   justify-content: space-between;
   color: #2C3E50;
   font-size: 15px;
-  font-weight: 700;
+  font-weight:700;
   border-top: #aaa solid 1px;
 }
