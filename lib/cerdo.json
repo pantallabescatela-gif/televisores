@@ -1,0 +1,159 @@
+{
+  "data": {
+    "cerdo": [
+   {
+     "descripcion": "PERNIL SIN HUESO X KG",
+     "precio": "9.95",
+     "peso": "POR KG",
+     "oferta": "no",
+     "imagen":"./cerdo/chuletafresca.webp"
+   },
+   {
+    "descripcion": "PERNIL CON HUESO X KG",
+    "precio": "8.20",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/chuletaahumada.webp"
+   },
+   {
+    "descripcion": "CHULETA FRESCA X KG",
+    "precio": "9.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/paletacerdo.webp"
+   },
+   {
+    "descripcion": "COSTILLA DE 1ERA X KG",
+    "precio": "12.70",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/pernil.webp"
+  },
+  {
+    "descripcion": "COSTILLA CHINA X KG",
+    "precio": "6.95",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costilla.webp"
+  },
+  {
+    "descripcion": "PAPADA FRESCA X KG",
+    "precio": "6.20",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/paticas.webp"
+  },
+  {
+    "descripcion": "PAPADA AHUMADA X KG",
+    "precio": "9.60",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/huesoahumado.webp"
+  },
+  {
+    "descripcion": "CARNITA DE 1ERA X KG",
+    "precio": "8.50",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/huesocerdo.webp"
+  },
+  {
+    "descripcion": "HUESO FRESCO X KG",
+    "precio": "4.00",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/rabocerdo.webp"
+  },
+  {
+    "descripcion": "ASADURA X KG",
+    "precio": "2.20",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/asadura.webp"
+  },
+  {
+    "descripcion": "CUERO PP X KG",
+    "precio": "3.50",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "PATA DE CERDO X KG",
+    "precio": "3.65",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "TOCINO X KG",
+    "precio": "3.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CHULETA AHUMADA X KG",
+    "precio": "10.50",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "HUESO AHUMADO X KG",
+    "precio": "6.00",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "OREJA AHUMADA X KG",
+    "precio": "3.60",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CHORIZO DE AJO X KG",
+    "precio": "6.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CHORIZO CRIOLLO X KG",
+    "precio": "7.50",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "TOCINETA FRESCA X KG",
+    "precio": "13.01",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "MORCILLA FRESCA X KG",
+    "precio": "3.70",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CARNITA PARA HALLACAS X KG",
+    "precio": "7.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "COSTILLA AHUMADA X KG",
+    "precio": "7.00",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  }
+ ]
+ }}
