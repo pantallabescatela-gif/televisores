@@ -154,13 +154,6 @@
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
-  },
-  {
-    "descripcion": "COSTILLA AHUMADA X KG",
-    "precio": "7.00",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./cerdo/costillachina.webp"
-  },
+  }
  ]
  }}
