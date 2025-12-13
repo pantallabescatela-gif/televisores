@@ -3,7 +3,7 @@
     "pollo": [
    {
      "descripcion": "POLLO AVEMPACA X KG",
-     "precio": "3.35",
+     "precio": "3.40",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
@@ -66,7 +66,7 @@
   },
   {
     "descripcion": "POLLO Q POLLO X KG",
-    "precio": "3.45",
+    "precio": "3.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
