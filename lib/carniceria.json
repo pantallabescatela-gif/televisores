@@ -60,7 +60,7 @@
   },
   {
     "descripcion": "HIGADO DE RES X KG",
-    "precio": "7.50",
+    "precio": "8.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/carneMechar.webp"
@@ -87,14 +87,14 @@
   },
   {
     "descripcion": "LENGUA DE RES UND",
-    "precio": "6.40",
+    "precio": "7.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
   },
   {
     "descripcion": "RABO DE RES X KG",
-    "precio": "5.20",
+    "precio": "5.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
