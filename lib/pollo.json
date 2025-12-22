@@ -3,7 +3,7 @@
     "pollo": [
    {
      "descripcion": "POLLO AVEMPACA X KG",
-     "precio": "3.40",
+     "precio": "0.00",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
@@ -65,7 +65,7 @@
     "imagen":"./pollo/alaspollo.webp"
   },
   {
-    "descripcion": "FILET X KG",
+    "descripcion": "FILET  DE POLLOX KG",
     "precio": "9.00",
     "peso": "POR KG",
     "oferta": "no",
