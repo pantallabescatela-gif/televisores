@@ -8,6 +8,12 @@
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
    },
+    {
+    "descripcion": "POLLO Q POLLO X KG",
+    "precio": "3.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
    {
     "descripcion": "FILET DE POLLO X KG ",
     "precio": "9.00",
