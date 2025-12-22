@@ -9,29 +9,29 @@
      "imagen":"./pollo/polloentero.webp"
    },
  {
-    "descripcion": "FILET DE POLLO X KG ",
-    "precio": "9.00",
+    "descripcion": "POLLO Q POLLO X KG ",
+    "precio": "3.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/CHICHIS.webp"
   },
    {
-    "descripcion": "MUSLO DE POLLO",
-    "precio": "4.40",
+    "descripcion": "POLLO CHICHI AZUL X KG",
+    "precio": "3.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
    },
    {
-    "descripcion": "ALAS DE POLLO X KG",
-    "precio": "5.50",
+    "descripcion": "POLLO PICADO X KG",
+    "precio": "4.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/muslo.webp"
    },
    {
-    "descripcion": "CARAPACHO DE POLLO X KG",
-    "precio": "2.40",
+    "descripcion": "ALAS DE POLLO X KG",
+    "precio": "5.50",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PATASPOLLO.webp"
@@ -58,15 +58,15 @@
     "imagen":"./pollo/carapacho.webp"
   },
   {
-    "descripcion": "POLLO PICADO X KG",
-    "precio": "4.20",
+    "descripcion": "MUSLO DE POLLO X KG",
+    "precio": "4.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/alaspollo.webp"
   },
   {
-    "descripcion": "POLLO Q POLLO X KG",
-    "precio": "3.80",
+    "descripcion": "FILET X KG",
+    "precio": "9.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
@@ -121,8 +121,8 @@
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "POLLO CHICHI AZUL X KG",
-    "precio": "3.70",
+    "descripcion": "CARAPACHO DE POLLO X KG",
+    "precio": "2.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
