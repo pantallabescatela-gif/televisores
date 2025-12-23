@@ -9,76 +9,83 @@
      "imagen":"./pollo/polloentero.webp"
    },
  {
-    "descripcion": "POLLO Q POLLO X KG ",
-    "precio": "3.80",
+    "descripcion": "MOLLEJA DE POLLO X KG ",
+    "precio": "3.65",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/CHICHIS.webp"
   },
    {
-    "descripcion": "POLLO CHICHI AZUL X KG",
-    "precio": "3.70",
+    "descripcion": "POLLO Q POLLO X KG",
+    "precio": "3.95",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
    },
    {
-    "descripcion": "POLLO PICADO X KG",
-    "precio": "4.20",
+    "descripcion": "HIGADO DE POLLO X KG",
+    "precio": "2.95",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/muslo.webp"
    },
    {
-    "descripcion": "ALAS DE POLLO X KG",
-    "precio": "5.50",
+    "descripcion": "POLLO CHICHI AZUL X KG",
+    "precio": "3.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PATASPOLLO.webp"
-  },
-  {
-    "descripcion": "HIGADO DE POLLO X KG",
-    "precio": "2.95",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./pollo/higado.webp"
-  },
-  {
-    "descripcion": "MOLLEJA DE POLLO X KG",
-    "precio": "3.65",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./pollo/filet.webp"
   },
   {
     "descripcion": "PATA DE POLLO X KG",
     "precio": "3.10",
     "peso": "POR KG",
     "oferta": "no",
+    "imagen":"./pollo/higado.webp"
+  },
+  {
+    "descripcion": "POLLO PICADO X KG",
+    "precio": "4.40",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/filet.webp"
+  },
+  {
+    "descripcion": "ALAS DE POLLO X KG",
+    "precio": "5.70",
+    "peso": "POR KG",
+    "oferta": "no",
     "imagen":"./pollo/carapacho.webp"
   },
   {
     "descripcion": "MUSLO DE POLLO X KG",
-    "precio": "4.40",
+    "precio": "4.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/alaspollo.webp"
   },
   {
-    "descripcion": "FILET  DE POLLOX KG",
-    "precio": "9.00",
+    "descripcion": "CARAPACHO DE POLLO X KG",
+    "precio": "0.00",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion":" FILET DE POLLO X KG",
+    "precio": "9.50",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
   {
     "descripcion": "GALLINA X KG",
-    "precio": "3.70",
+    "precio": "3.85",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
-  {
+   {
     "descripcion": "MORTADELA ALIBAL 500 G",
     "precio": "1.98",
     "peso": "POR KG",
@@ -86,43 +93,36 @@
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "MORTADELA ALIBAL 700 G",
-    "precio": "2.42",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./pollo/pollopicado.webp"
-  },
-   {
-    "descripcion": "MORTADELA ALIBAL 1 KG",
-    "precio": "3.25",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./pollo/pollopicado.webp"
-  },
-  {
-    "descripcion": "MORTADELA PUNTA DEL MONTE 1 KG",
-    "precio": "4.35",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./pollo/pollopicado.webp"
-  },
-   {
-    "descripcion": "MORTADELA PUNTA DEL MONTE 500 G",
+    "descripcion": " MORTADELA PUNTA DEL MONTE 500 G",
     "precio": "2.48",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
   {
-    "descripcion": "MORTADELA CORRAL 1KG",
-    "precio": "3.60",
+    "descripcion": " MORTADELA ALIBAL 700 G",
+    "precio": "2.42",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "CARAPACHO DE POLLO X KG",
-    "precio": "0.00",
+    "descripcion": "MORTADELA PUNTA DEL MONTE 1 KG",
+    "precio": "4.35",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+  {
+    "descripcion": "MORTADELA ALIBAL 1 KG",
+    "precio": "3.25",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./pollo/pollopicado.webp"
+  },
+   {
+    "descripcion": "MORTADELA CORRAL 1 KG",
+    "precio": "3.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
