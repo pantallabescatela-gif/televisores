@@ -74,7 +74,7 @@ main{
 main#carniceria{
   background-image: url("./otono/CARNE.webp");
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 130vh;
   background-size: 100% 100%;
 }
 
@@ -82,14 +82,14 @@ main#carniceria{
 main#pollo{
   background-image: url("./otono/POLLO.webp");
   background-repeat: no-repeat;
-  height: 130vh;
+  height: 160vh;
   background-size: 100% 100%;
 }
 
 main#cerdo{
   background-image: url("./otono/CERDO.webp");
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 130vh;
   background-size: 100% 100%;
 }
 
