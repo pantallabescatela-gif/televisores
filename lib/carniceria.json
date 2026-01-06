@@ -4,14 +4,14 @@
 
    {
     "descripcion": "LOMO Y PUNTA X KG",
-    "precio": "15.20",
+    "precio": "15.70",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/molida.webp"
    },
    {
     "descripcion": "CARNE DE PRIMERA X KG",
-    "precio": "14.00",
+    "precio": "14.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/costilla.webp"
@@ -115,7 +115,7 @@
   },
   {
     "descripcion": "CARNE MOLIDA ESPECIAL X KG",
-    "precio": "14.60",
+    "precio": "15.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
@@ -135,7 +135,7 @@
   },
   {
     "descripcion": "KIBBE X KG",
-    "precio": "15.20",
+    "precio": "15.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
