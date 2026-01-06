@@ -70,28 +70,22 @@ main{
 }
 
 
-
-main#carniceria{
-  background-image: url("./otono/CARNE.webp");
-  background-repeat: no-repeat;
-  height: 130vh;
-  background-size: 100% 100%;
-}
-
-
 main#pollo{
   background-image: url("./otono/POLLO.webp");
   background-repeat: no-repeat;
-  height: 160vh;
-  background-size: 100% 100%;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: auto;
+min-height: 100vh;
+
+-webkit-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+text-size-adjust: 100%;
 }
 
-main#cerdo{
-  background-image: url("./otono/CERDO.webp");
-  background-repeat: no-repeat;
-  height: 130vh;
-  background-size: 100% 100%;
-}
+
 
 
 .header{
@@ -170,7 +164,7 @@ h1 {
   flex-direction: row;
   align-items: center;
   border: rgb(235, 235, 227) 1px solid;
-  font-size: 20px;
+  font-size: 2.22vh;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   width: 100%;
   border-radius: 50px;
@@ -296,14 +290,14 @@ font-size: 25px;
   color: #2C3E50;
   flex-direction: column;
   align-items: center;
-  font-size: 15px;
+  font-size: 1.7vh;
   margin-right: 10px;
   font-weight: 700;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 .moneda{
-  font-size: 15px;
+  font-size: 1.7vh;
   color: #2C3E50;
   font-weight: 700;
   padding: 10px;
@@ -315,14 +309,14 @@ font-size: 25px;
 .segundaSection{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #2C3E50;
-  font-size: 25px;
+  font-size: 3vh;
 }
 .terceraSection{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   color: #2C3E50;
-  font-size: 15px;
+  font-size: 1.7vh;
   font-weight:700;
   border-top: #aaa solid 1px;
 }
