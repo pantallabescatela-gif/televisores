@@ -150,7 +150,7 @@ setInterval(function(){
     if(response.ok) {
       response.json().then(function(response) {
         document.querySelector(".listaProductos").innerHTML="";
-        let data=response.data.pollo.slice(0,contador+20);
+        let data=response.data.pollo.slice(contador,contador+20);
          
         for (const productos of data) {
           let text2=`<div class='producto'>
@@ -161,10 +161,10 @@ setInterval(function(){
         }
         document.querySelector(".listaProductos").innerHTML=text;
         loadAnimation()
-        if(contador>=response.data.pollo.length-5){
+        if(contador>=response.data.pollo.length-19){
           contador=0;
           }else{
-          contador=contador+4;
+          contador=contador+2;
           }
       });
     } else {
