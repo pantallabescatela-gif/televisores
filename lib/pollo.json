@@ -17,7 +17,7 @@
   },
    {
     "descripcion": "POLLO Q POLLO X KG",
-    "precio": "4.60",
+    "precio": "4.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
@@ -45,7 +45,7 @@
   },
   {
     "descripcion": "POLLO PICADO X KG",
-    "precio": "5.20",
+    "precio": "4.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/filet.webp"
