@@ -3,123 +3,96 @@
     "carniceria": [
 
    {
-    "descripcion": "LOMO Y PUNTA X KG",
-    "precio": "12.90",
+    "descripcion": "LOMITO DE RES X KG",
+    "precio": "15.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/molida.webp"
    },
    {
-    "descripcion": "CARNE DE PRIMERA X KG",
-    "precio": "11.80",
+    "descripcion": "HIGADO DE RES X KG",
+    "precio": "8.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/costilla.webp"
    },
    {
-    "descripcion": "LAGARTO CON HUESO",
-    "precio": "6.60",
+    "descripcion": "LOMO Y PUNTA X KG",
+    "precio": "12.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/lagarto.webp"
   },
   {
-    "descripcion": "COSTILLA DE RES X KG",
-    "precio": "6.60",
+    "descripcion": "CORAZON DE RES UND",
+    "precio": "7.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/lomito.webp"
   },
   {
-    "descripcion": "HUESO DE NUCA X KG",
-    "precio": "6.00",
+    "descripcion": "CARNE DE PRIMERA X KG",
+    "precio": "10.90",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/puntaTrasera.webp"
-  },
-  {
-    "descripcion": "HUESO ROJO X KG",
-    "precio": "1.50",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/solomoCuerito.webp"
-  },
-  {
-    "descripcion": "GARRETE X KG",
-    "precio": "1.00",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/bisteck.webp"
-  },
-  {
-    "descripcion": "PELLEJO X KG",
-    "precio": "1.60",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/carneGuisar.webp"
-  },
-  {
-    "descripcion": "HIGADO DE RES X KG",
-    "precio": "8.50",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/carneMechar.webp"
-  },
-  {
-    "descripcion": "PANZA DE RES X KG",
-    "precio": "4.20",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/higado.webp"
-  },
-  {
-    "descripcion": "PATA DE RES UND",
-    "precio": "4.45",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/strogonoff.webp"
-  },  {
-    "descripcion": "CORAZON DE RES UND",
-    "precio": "7.00",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/chuleta.webp"
   },
   {
     "descripcion": "LENGUA DE RES UND",
     "precio": "7.00",
         "peso": "POR KG",
         "oferta": "no",
-        "imagen":"./carnes/chuleta.webp"
+        "imagen":"./carnes/solomoCuerito.webp"
+  },
+  {
+    "descripcion": "CARNE MOLIDA ESPECIAL X KG",
+    "precio": "11.50",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/bisteck.webp"
   },
   {
     "descripcion": "RABO DE RES X KG",
     "precio": "5.50",
         "peso": "POR KG",
         "oferta": "no",
-        "imagen":"./carnes/chuleta.webp"
+        "imagen":"./carnes/carneGuisar.webp"
   },
   {
-    "descripcion": "LOMO SELLO MORADO X KG",
-    "precio": "16.00",
+    "descripcion": "KIBBE X KG",
+    "precio": "12.00",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/carneMechar.webp"
+  },
+  {
+    "descripcion": "PATA DE RES UND",
+    "precio": "4.45",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/higado.webp"
+  },
+  {
+    "descripcion": "LAGARTO S/H X KG",
+    "precio": "10.90",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/strogonoff.webp"
+  },  {
+    "descripcion": "PANZA DE RES X KG",
+    "precio": "4.20",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
   },
   {
-    "descripcion": "ASERRIN X KG",
-    "precio": "1.00",
+    "descripcion": "LAGARTO C/H X KG",
+    "precio": "5.90",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
   },
   {
-    "descripcion": "CARNE MOLIDA ESPECIAL X KG",
-    "precio": "12.50",
-        "peso": "POR KG",
-        "oferta": "no",
-        "imagen":"./carnes/chuleta.webp"
-  },{
     "descripcion": "RIÑON DE RES X KG",
     "precio": "1.70",
         "peso": "POR KG",
@@ -127,15 +100,44 @@
         "imagen":"./carnes/chuleta.webp"
   },
   {
-    "descripcion": "LOMITO DE RES X KG",
-    "precio": "15.00",
+    "descripcion": "COSTILLA DE RES X KG",
+    "precio": "5.90",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
   },
   {
-    "descripcion": "KIBBE X KG",
-    "precio": "12.90",
+    "descripcion": "PELLEJO DE RES X KG",
+    "precio": "1.60",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/chuleta.webp"
+  },
+  {
+    "descripcion": "HUESO DE NUCA X KG",
+    "precio": "5.40",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/chuleta.webp"
+   },
+  {
+    "descripcion": "ASERRIN X KG",
+    "precio": "1.00",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/chuleta.webp"
+
+},
+  {
+    "descripcion": "HUESO ROJO X KG",
+    "precio": "1.50",
+        "peso": "POR KG",
+        "oferta": "no",
+        "imagen":"./carnes/chuleta.webp"
+  },
+  {
+    "descripcion": "GARRETE X KG",
+    "precio": "1.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
