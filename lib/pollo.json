@@ -79,7 +79,7 @@
     "imagen":"./pollo/pollopicado.webp"
   },
   {
-    "descripcion": "MORTADELA LIDER 1 KG",
+    "descripcion": "MORTADELA LIDER POLLO 1 KG",
     "precio": "3.70",
     "peso": "POR KG",
     "oferta": "no",
@@ -93,7 +93,7 @@
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": " MORTADELA LIDER 500 G",
+    "descripcion": " MORTADELA LIDER POLLO 500 G",
     "precio": "2.00",
     "peso": "POR KG",
     "oferta": "no",
@@ -107,7 +107,7 @@
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "MORTADELA PLUMROSE 1 KG",
+    "descripcion": "MORTADELA PLUMROSE (CARNE) 1 KG",
     "precio": "3.50",
     "peso": "POR KG",
     "oferta": "no",
@@ -121,21 +121,21 @@
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "MORTADELA CORRAL 1 KG",
+    "descripcion": "MORTADELA CORRAL DE POLLO 1 KG",
     "precio": "0.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
    {
-    "descripcion": "CARAPACHO DE POLLO X KG",
+    "descripcion": "GALLINA X KG",
     "precio": "0.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   },
   {
-    "descripcion": "GALLINA X KG",
+    "descripcion": "CARAPACHO X KG",
     "precio": "0.00",
     "peso": "POR KG",
     "oferta": "no",
