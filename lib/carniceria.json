@@ -59,7 +59,7 @@
         "imagen":"./carnes/carneGuisar.webp"
   },
   {
-    "descripcion": "KIBBE X KG",
+    "descripcion": "CARNE MAGRA (KIBBE) X KG",
     "precio": "12.00",
         "peso": "POR KG",
         "oferta": "no",
@@ -73,7 +73,7 @@
         "imagen":"./carnes/higado.webp"
   },
   {
-    "descripcion": "LAGARTO S/H X KG",
+    "descripcion": "LAGARTO SIN HUESO X KG",
     "precio": "10.90",
         "peso": "POR KG",
         "oferta": "no",
@@ -86,7 +86,7 @@
         "imagen":"./carnes/chuleta.webp"
   },
   {
-    "descripcion": "LAGARTO C/H X KG",
+    "descripcion": "LAGARTO CON HUESO X KG",
     "precio": "5.90",
         "peso": "POR KG",
         "oferta": "no",
