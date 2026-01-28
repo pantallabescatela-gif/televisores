@@ -9,78 +9,78 @@
      "imagen":"./cerdo/chuletafresca.webp"
    },
    {
-    "descripcion": "PERNIL CON HUESO X KG",
-    "precio": "8.20",
+    "descripcion": "PATA DE CERDO X KG",
+    "precio": "3.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/chuletaahumada.webp"
    },
    {
-    "descripcion": "CHULETA FRESCA X KG",
-    "precio": "9.80",
+    "descripcion": "PERNIL CON HUESO X KG",
+    "precio": "8.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/paletacerdo.webp"
    },
    {
-    "descripcion": "COSTILLA DE 1ERA X KG",
-    "precio": "12.70",
+    "descripcion": "HUESO FRESCO X KG",
+    "precio": "3.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/pernil.webp"
   },
   {
-    "descripcion": "COSTILLA CHINA X KG",
-    "precio": "6.95",
+    "descripcion": "COSTILLA DE 1ERA KG",
+    "precio": "12.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costilla.webp"
-  },
-  {
-    "descripcion": "PAPADA FRESCA X KG",
-    "precio": "6.20",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./cerdo/paticas.webp"
-  },
-  {
-    "descripcion": "PAPADA AHUMADA X KG",
-    "precio": "9.60",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./cerdo/huesoahumado.webp"
   },
   {
     "descripcion": "CARNITA DE 1ERA X KG",
     "precio": "8.50",
     "peso": "POR KG",
     "oferta": "no",
+    "imagen":"./cerdo/paticas.webp"
+  },
+  {
+    "descripcion": "COSTILLA CHINA X KG",
+    "precio": "6.80",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/huesoahumado.webp"
+  },
+  {
+    "descripcion": "MORCILLA  X KG",
+    "precio": "3.70",
+    "peso": "POR KG",
+    "oferta": "no",
     "imagen":"./cerdo/huesocerdo.webp"
   },
   {
-    "descripcion": "HUESO FRESCO X KG",
-    "precio": "4.00",
+    "descripcion": "CHULETA FRESCA X KG",
+    "precio": "9.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/rabocerdo.webp"
   },
   {
-    "descripcion": "ASADURA X KG",
-    "precio": "2.20",
+    "descripcion": "CHORIZO (CRIOLLO) DON EDGARDO X KG",
+    "precio": "7.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/asadura.webp"
   },
   {
-    "descripcion": "CUERO PP X KG",
-    "precio": "3.20",
+    "descripcion": "CHULETA AHUMADA X KG",
+    "precio": "10.50",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "PATA DE CERDO X KG",
-    "precio": "3.65",
+    "descripcion": "HUESO AHUMADO X KG",
+    "precio": "5.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -93,15 +93,15 @@
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "CHULETA AHUMADA X KG",
-    "precio": "10.50",
+    "descripcion": "COSTILLA AHUMADA X KG",
+    "precio": "6.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "HUESO AHUMADO X KG",
-    "precio": "6.00",
+    "descripcion": "ASADURA SIN BOFE X KG",
+    "precio": "2.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -114,15 +114,29 @@
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "CHORIZO DE AJO X KG",
+    "descripcion": "PAPADA AHUMADA X KG",
+    "precio": "9.60",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CHORIZO AJO Y AHUMADO MARACARAY X KG",
     "precio": "6.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "CHORIZO CRIOLLO X KG",
-    "precio": "7.50",
+    "descripcion": "PAPADA FRESCA X KG",
+    "precio": "6.20",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/costillachina.webp"
+  },
+  {
+    "descripcion": "CUERO PP X KG",
+    "precio": "3.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -135,22 +149,8 @@
     "imagen":"./cerdo/costillachina.webp"
   },
   {
-    "descripcion": "MORCILLA FRESCA X KG",
-    "precio": "3.70",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./cerdo/costillachina.webp"
-  },
-  {
-    "descripcion": "CARNITA PARA HALLACAS X KG",
-    "precio": "7.80",
-    "peso": "POR KG",
-    "oferta": "no",
-    "imagen":"./cerdo/costillachina.webp"
-  },
-  {
-    "descripcion": "COSTILLA AHUMADA X KG",
-    "precio": "7.00",
+    "descripcion": "CHINCHURRIA X KG",
+    "precio": "3.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
