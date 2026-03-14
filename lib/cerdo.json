@@ -3,21 +3,21 @@
     "cerdo": [
    {
      "descripcion": "PERNIL SIN HUESO X KG",
-     "precio": "10.80",
+     "precio": "10.40",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./cerdo/chuletafresca.webp"
    },
    {
     "descripcion": "PATA DE CERDO X KG",
-    "precio": "3.70",
+    "precio": "3.10",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/chuletaahumada.webp"
    },
    {
     "descripcion": "PERNIL CON HUESO X KG",
-    "precio": "8.20",
+    "precio": "8.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/paletacerdo.webp"
@@ -45,35 +45,35 @@
   },
   {
     "descripcion": "COSTILLA DE 1ERA X KG",
-    "precio": "12.70",
+    "precio": "11.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/huesoahumado.webp"
   },
   {
     "descripcion": "OREJA AHUMADA X KG",
-    "precio": "3.60",
+    "precio": "3.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/huesocerdo.webp"
   },
   {
     "descripcion": "COSTILLA CHINA X KG",
-    "precio": "6.80",
+    "precio": "6.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/rabocerdo.webp"
   },
   {
     "descripcion": "ASADURA SIN BOFE X KG",
-    "precio": "2.20",
+    "precio": "2.00",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/asadura.webp"
   },
   {
     "descripcion": "COSTILLA AHUMADA X KG",
-    "precio": "6.70",
+    "precio": "6.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -87,7 +87,7 @@
   },
   {
     "descripcion": "CHULETA FRESCA X KG",
-    "precio": "9.80",
+    "precio": "9.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -101,7 +101,7 @@
   },
   {
     "descripcion": "CHULETA AHUMADA X KG",
-    "precio": "10.50",
+    "precio": "10.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -115,7 +115,7 @@
   },
   {
     "descripcion": "PAPADA AHUMADA X KG",
-    "precio": "9.60",
+    "precio": "9.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -129,7 +129,7 @@
   },
   {
     "descripcion": "PAPADA FRESCA X KG",
-    "precio": "6.20",
+    "precio": "5.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -143,7 +143,7 @@
   },
   {
     "descripcion": "CUERO PP X KG",
-    "precio": "3.20",
+    "precio": "2.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
