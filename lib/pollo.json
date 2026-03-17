@@ -45,7 +45,7 @@
   },
   {
     "descripcion": "FILET DE POLLO X KG",
-    "precio": "7.90",
+    "precio": "7.80",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/filet.webp"
@@ -115,8 +115,7 @@
   },
   {
     "descripcion": "HIGADO DE POLLO X KG",
-    "precio": "2.4 
-    0",
+    "precio": "2.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
