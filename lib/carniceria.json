@@ -18,7 +18,7 @@
    },
    {
     "descripcion": "LOMO Y PUNTA X KG",
-    "precio": "13.00",
+    "precio": "12.90",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/lagarto.webp"
@@ -46,7 +46,7 @@
   },
   {
     "descripcion": "CARNE MOLIDA ESPECIAL X KG",
-    "precio": "12.50",
+    "precio": "12.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/bisteck.webp"
@@ -60,7 +60,7 @@
   },
   {
     "descripcion": "CARNE MAGRA (KIBBE) X KG",
-    "precio": "12.00",
+    "precio": "12.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/carneMechar.webp"
@@ -74,7 +74,7 @@
   },
   {
     "descripcion": "LAGARTO SIN HUESO X KG",
-    "precio": "10.90",
+    "precio": "11.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/strogonoff.webp"
@@ -87,7 +87,7 @@
   },
   {
     "descripcion": "LAGARTO CON HUESO X KG",
-    "precio": "5.90",
+    "precio": "6.20",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
@@ -101,7 +101,7 @@
   },
   {
     "descripcion": "COSTILLA DE RES X KG",
-    "precio": "5.90",
+    "precio": "6.20",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
