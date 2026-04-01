@@ -17,7 +17,7 @@
   },
    {
     "descripcion": "POLLO AVEMPACA X KG",
-    "precio": "3.15",
+    "precio": "3.25",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
@@ -59,7 +59,7 @@
   },
   {
     "descripcion": "MUSLO DE POLLO X KG",
-    "precio": "4.00",
+    "precio": "4.2",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/alaspollo.webp"
@@ -73,7 +73,7 @@
   },
   {
     "descripcion":"ALAS DE POLLO X KG",
-    "precio": "4.40",
+    "precio": "4.46",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
