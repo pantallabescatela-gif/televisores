@@ -18,7 +18,7 @@
    },
    {
     "descripcion": "LOMO Y PUNTA X KG",
-    "precio": "13.00",
+    "precio": "13.40",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/lagarto.webp"
@@ -142,7 +142,7 @@
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
   },{
-    "descripcion": "kibbe",
+    "descripcion": "kIBBE",
     "precio": "13.40",
         "peso": "POR KG",
         "oferta": "no",
