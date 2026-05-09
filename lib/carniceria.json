@@ -141,7 +141,8 @@
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
-  },{
+  },
+  {
     "descripcion": "kIBBE",
     "precio": "13.40",
         "peso": "POR KG",
