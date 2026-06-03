@@ -101,10 +101,12 @@
   },
   {
     "descripcion": " MOLLEJA DE POLLO X KG",
-    "precio": "3.20",
+    "precio": "3.45",
     "peso": "POR KG",
     "oferta": "no",
-    "imagen":"./pollo/pollopicado.webp"
+    "imagen":"./pollo/mollejadepollo.webp"
+    
+
   },
    {
     "descripcion": "MORTADELA PLUMROSE (CARNE) 1 KG",
