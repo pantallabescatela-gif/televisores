@@ -17,14 +17,14 @@
    },
    {
     "descripcion": "PERNIL CON HUESO X KG",
-    "precio": "8.00",
+    "precio": "7.50",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/paletacerdo.webp"
    },
    {
     "descripcion": "HUESO FRESCO X KG",
-    "precio": "3.80",
+    "precio": "3.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/pernil.webp"
@@ -38,7 +38,7 @@
   },
   {
     "descripcion": "HUESO AHUMADO X KG",
-    "precio": "5.70",
+    "precio": "5.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/paticas.webp"
@@ -122,7 +122,7 @@
   },
   {
     "descripcion": "CHORIZO AJO,AHUMADO Y PICANTE   X KG",
-    "precio": "6.80",
+    "precio": "6.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
@@ -136,14 +136,14 @@
   },
   {
     "descripcion": "CHORIZO (CRIOLLO) DON EDGARDO X KG",
-    "precio": "7.20",
+    "precio": "7.50",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
   },
   {
     "descripcion": "CUERO PP X KG",
-    "precio": "2.90",
+    "precio": "2.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
