@@ -154,6 +154,10 @@
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./cerdo/costillachina.webp"
-  }
- ]
- }}
+  },
+  {
+   "descripcion": "HUESO ROJO X KG",
+    "precio": "0.90",
+    "peso": "POR KG",
+    "oferta": "no",
+    "imagen":"./cerdo/pernil.webp"
