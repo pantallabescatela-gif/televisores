@@ -9,10 +9,29 @@ html, body {
   width: 100vw;
   height: 100vh;
 }
-
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover; 
+}
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+.videoC{
+  transform: rotate(90deg);
+  width: 100vh;
+  height: 100vw;
+  object-fit: cover;
+  position:absolute;
+
 }

@@ -16,28 +16,100 @@
   <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="./publicidades/1.jpg" alt="Slide 1"></div>
             <div class="swiper-slide"><img src="./publicidades/2.jpg" alt="Slide 2"></div>
+            <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/1.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/3.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/4.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/5.jpg" alt="Slide 3"></div>
+             <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/2.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/6.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/7.jpg" alt="Slide 3"></div>
+            <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/3.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/8.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/9.jpg" alt="Slide 3"></div>
+            <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/4.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/10.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/11.jpg" alt="Slide 3"></div>
+             <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/5.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/12.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/13.jpg" alt="Slide 3"></div>
+            <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/6.webm" type="video/webm">
+                        </video>
+                       </div>
                 <div class="swiper-slide"><img src="./publicidades/14.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/15.jpg" alt="Slide 3"></div>
+                 <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/7.webm" type="video/webm">
+                        </video>
+                       </div>
                 <div class="swiper-slide"><img src="./publicidades/16.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/17.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/18.jpg" alt="Slide 3"></div>
+             <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/8.webm" type="video/webm">
+                        </video>
+                       </div>
             <div class="swiper-slide"><img src="./publicidades/19.jpg" alt="Slide 3"></div>
             <div class="swiper-slide"><img src="./publicidades/20.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/21.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/22.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/23.jpg" alt="Slide 3"></div>
                 <div class="swiper-slide"><img src="./publicidades/24.jpg" alt="Slide 3"></div>
+                 <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/9.webm" type="video/webm">
+                        </video>
+                       </div>
+                 <div class="swiper-slide"><img src="./publicidades/25.jpg" alt="Slide 3"></div>
+                  <div class="swiper-slide"><img src="./publicidades/26.jpg" alt="Slide 3"></div>
+                   <div class="swiper-slide"><img src="./publicidades/27.jpg" alt="Slide 3"></div>
+                    <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/10.webm" type="video/webm">
+                        </video>
+                       </div>
+                    <div class="swiper-slide"><img src="./publicidades/28.jpg" alt="Slide 3"></div>
+                     <div class="swiper-slide"><img src="./publicidades/29.jpg" alt="Slide 3"></div>
+                      <div class="swiper-slide"><img src="./publicidades/30.jpg" alt="Slide 3"></div>
+                       <div class="swiper-slide"><img src="./publicidades/31.jpg" alt="Slide 3"></div>
+                       
+                      
+                        
+                        
+                       
+                        
+                       
+                       
+                       
+                       
+                        <div class="swiper-slide">
+                        <video class="videoC" preload="auto" muted playsinline>
+                          <source src="./videos/11.webm" type="video/webm">
+                        </video>
+                       </div>
 
   </div>
   
@@ -67,8 +139,41 @@ var swiper = new Swiper('.swiper', {
     el: '.swiper-pagination',
     clickable: true
   },
+  on: {
+    init: function () {
+      manageSlidePlayback(this);
+    },
+    slideChange: function () {
+      manageSlidePlayback(this);
+    },
+  },
 });
 
+  function manageSlidePlayback(swiperInstance) {
+    const activeSlide = swiperInstance.slides[swiperInstance.activeIndex];
+  const video = activeSlide.querySelector('video');
+  swiperInstance.slides.forEach(slide => {
+    const v = slide.querySelector('video');
+    if (v) {
+      v.pause();
+      v.currentTime = 0; 
+    }
+  });
 
+  if (video){
+    swiperInstance.autoplay.stop();
+    video.play().catch(error=> console.log("error", error))
+    video.onended = () => {
+      if(swiperInstance.isEnd){
+        swiperInstance.slideTo(0)
+      }else{
+        swiperInstance.slideNext();
+      }
+     
+    };
+  }else{
+    swiperInstance.autoplay.start();
+  }
+  }
 </script>
 </html>
