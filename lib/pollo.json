@@ -3,7 +3,7 @@
     "pollo": [
    {
      "descripcion": "POLLO Q POLLO X KG",
-     "precio": "3.50",
+     "precio": "3.20",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
@@ -17,7 +17,7 @@
   },
    {
     "descripcion": "POLLO AVEMPACA X KG",
-    "precio": "3.40",
+    "precio": "3.10",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
@@ -45,7 +45,7 @@
   },
   {
     "descripcion": "FILET DE POLLO X KG",
-    "precio": "7.90",
+    "precio": "7.70",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/filet.webp"
@@ -59,7 +59,7 @@
   },
   {
     "descripcion": "MUSLO DE POLLO X KG",
-    "precio": "4.4",
+    "precio": "4.10",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/alaspollo.webp"
@@ -73,7 +73,7 @@
   },
   {
     "descripcion":"ALAS DE POLLO X KG",
-    "precio": "4.8",
+    "precio": "4.4",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
