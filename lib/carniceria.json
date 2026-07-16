@@ -18,7 +18,7 @@
    },
    {
     "descripcion": "LOMO Y PUNTA X KG",
-    "precio": "13.90",
+    "precio": "13.40",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/lagarto.webp"
@@ -32,7 +32,7 @@
   },
   {
     "descripcion": "CARNE DE PRIMERA X KG",
-    "precio": "12.90",
+    "precio": "12.40",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/puntaTrasera.webp"
@@ -46,7 +46,7 @@
   },
   {
     "descripcion": "CARNE MOLIDA ESPECIAL X KG",
-    "precio": "13.50",
+    "precio": "12.90",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/bisteck.webp"
@@ -74,7 +74,7 @@
   },
   {
     "descripcion": "LAGARTO SIN HUESO X KG",
-    "precio": "12.90",
+    "precio": "12.40",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/strogonoff.webp"
