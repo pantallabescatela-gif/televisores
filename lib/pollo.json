@@ -150,15 +150,21 @@
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
   }
- ]
+  , {
+     "descripcion": "POLLO cHICHI A. X KG",
+     "precio": "2.70",
+     "peso": "POR KG",
+     "oferta": "no",
+     "imagen":"./pollo/polloentero.webp"
+    }
+  ]
  }}
  , {
     "descripcion": "POLLO CHICHI",
-    "precio": "2.70",
     "peso": "POR KG",
-    "oferta": "no",
     "imagen":"./pollo/polloentero.webp"
-  }
  
  
+
+
  
