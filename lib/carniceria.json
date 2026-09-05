@@ -87,7 +87,7 @@
   },
   {
     "descripcion": "LAGARTO CON HUESO X KG",
-    "precio": "7.00",
+    "precio": "6.60",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
@@ -101,7 +101,7 @@
   },
   {
     "descripcion": "COSTILLA DE RES X KG",
-    "precio": "7.00",
+    "precio": "6.60",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
@@ -130,7 +130,7 @@
 },
   {
     "descripcion": "HUESO ROJO X KG",
-    "precio": "0.90",
+    "precio": "1.00",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/chuleta.webp"
