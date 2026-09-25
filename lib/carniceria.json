@@ -4,7 +4,7 @@
 
    {
     "descripcion": "LOMITO DE RES X KG",
-    "precio": "16.50",
+    "precio": "15.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/molida.webp"
@@ -74,7 +74,7 @@
   },
   {
     "descripcion": "LAGARTO SIN HUESO X KG",
-    "precio": "12.40",
+    "precio": "10.50",
         "peso": "POR KG",
         "oferta": "no",
         "imagen":"./carnes/strogonoff.webp"
