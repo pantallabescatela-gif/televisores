@@ -3,7 +3,7 @@
     "pollo": [
    {
      "descripcion": "POLLO Q POLLO X KG",
-     "precio": "3.45",
+     "precio": "3.50",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
@@ -17,7 +17,7 @@
   },
    {
     "descripcion": "POLLO AVEMPACA X KG",
-    "precio": "3.30",
+    "precio": "3.40",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
@@ -31,7 +31,7 @@
    },
    {
     "descripcion": "POLLO PICADO X KG",
-    "precio": "4.00",
+    "precio": "4.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PATASPOLLO.webp"
@@ -45,7 +45,7 @@
   },
   {
     "descripcion": "FILET DE POLLO X KG",
-    "precio": "8.00",
+    "precio": "8.20",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/filet.webp"
@@ -59,7 +59,7 @@
   },
   {
     "descripcion": "MUSLO DE POLLO X KG",
-    "precio": "4.10",
+    "precio": "4.20",
     
     "peso": "POR KG",
     "oferta": "no",
@@ -74,7 +74,7 @@
   },
   {
     "descripcion":"ALAS DE POLLO X KG",
-    "precio": "4.70",
+    "precio": "4.90",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
@@ -102,7 +102,7 @@
   },
   {
     "descripcion": " MOLLEJA DE POLLO X KG",
-    "precio": "3.75",
+    "precio": "3.95",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
@@ -118,7 +118,7 @@
   },
   {
     "descripcion": "HIGADO DE POLLO X KG",
-    "precio": "2.90",
+    "precio": "2.95",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
