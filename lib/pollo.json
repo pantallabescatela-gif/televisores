@@ -45,7 +45,8 @@
   },
   {
     "descripcion": "FILET DE POLLO X KG",
-    "precio": "8.20",
+    "precio": "8.80
+    ,
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/filet.webp"
