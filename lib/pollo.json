@@ -3,7 +3,7 @@
     "pollo": [
     {
      "descripcion": "POLLO Q POLLO X KG",
-     "precio": "3.65",
+     "precio": "3.75",
      "peso": "POR KG",
      "oferta": "no",
      "imagen":"./pollo/polloentero.webp"
@@ -17,7 +17,7 @@
   },
     {
     "descripcion": "POLLO AVEMPACA X KG",
-    "precio": "3.55",
+    "precio": "3.75",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/PECHUGAPOLLO.webp"
@@ -133,7 +133,7 @@
   },
    {
     "descripcion": "GALLINA Q POLLO",
-    "precio": "3.55",
+    "precio": "3.60",
     "peso": "POR KG",
     "oferta": "no",
     "imagen":"./pollo/pollopicado.webp"
